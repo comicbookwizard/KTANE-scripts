@@ -22,6 +22,10 @@ def solve_button(color, text, num_batteries, has_car, has_frk):
         return "Hold the button. (Check strip color.)"
 
 def button_strip_rule(strip_color):
+    """
+    Given the color of the lit strip after holding the button, tells you when to release the button.
+    All the logic is taken from the Manual at https://www.bombmanual.com/web/.
+    """
     color = strip_color.lower()
     if color == "blue":
         return "Release when the countdown timer has a 4 in any position."
@@ -49,4 +53,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
