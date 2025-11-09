@@ -2,9 +2,6 @@ def solve_button(color, text, num_batteries, has_car, has_frk):
     """
     Determines which action(s) to take with the Button in the 'Button' module of Keep Talking and Nobody Explodes.
     All the logic is taken from the Manual at https://www.bombmanual.com/web/.
-    
-    Returns:
-        str: Instruction on which wire to cut.
     """
 
     color, text = color.lower(), text.lower()
@@ -52,3 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
