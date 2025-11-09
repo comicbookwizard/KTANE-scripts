@@ -2,7 +2,18 @@ def solve_button(color, text, num_batteries, has_car, has_frk):
     """
     Determines which action(s) to take with the Button in the 'Button' module of Keep Talking and Nobody Explodes.
     All the logic is taken from the Manual at https://www.bombmanual.com/web/.
+
+    Args:
+        color (str): Color of the button.
+        text (str): Text on the button.
+        num_batteries (int): Number of batteries on the bomb.
+        has_car (bool): Whether there is a lit CAR indicator on the bomb.
+        has_frk (bool): Whether there is a lit FRK indicator on the bomb.
+
+    Returns:
+        str: Instruction on what to do with the button.
     """
+    
 
     color, text = color.lower(), text.lower()
 
@@ -25,6 +36,12 @@ def button_strip_rule(strip_color):
     """
     Given the color of the lit strip after holding the button, tells you when to release the button.
     All the logic is taken from the Manual at https://www.bombmanual.com/web/.
+
+    Args:
+        strip_color (str): Color of the lit strip.
+
+    Returns:
+        str: Instruction on when to release the button.
     """
     color = strip_color.lower()
     if color == "blue":
@@ -53,5 +70,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
