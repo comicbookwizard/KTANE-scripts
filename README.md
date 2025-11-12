@@ -6,7 +6,7 @@ Currently contains solvers for:
 - [x] Simple Wires
 ---
 I plan to make solvers for the 
-- [ ] Memory
+- [x] Memory
 - [ ] Password
 - [ ] Complicated Wires
 - [ ] Wire Panels
