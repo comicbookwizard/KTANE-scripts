@@ -7,7 +7,7 @@ Currently contains solvers for:
 ---
 I plan to make solvers for the 
 - [x] Memory
-- [ ] Password
+- [x] Password
 - [ ] Complicated Wires
 - [ ] Wire Panels
 - [ ] Simon Says
