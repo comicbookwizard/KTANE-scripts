@@ -8,9 +8,9 @@ Currently contains solvers for:
 I plan to make solvers for the 
 - [x] Memory
 - [x] Password
-- [ ] Complicated Wires
-- [ ] Wire Panels
-- [ ] Simon Says
+- [x] Complicated Wires
+- [x] Wire Panels
+- [x] Simon Says
 
 and eventually combine all of these into one app. However, for now, I'm just going to post these as separate scripts as I work on them.
 
